@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+
+}
+.box{
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	margin: 15px 10px;
+	box-shadow: 0 0 5px #000;
+	text-align: center;
+	
+}
+.box a{
+	display: block;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #000;
+	font-size: 20pt;
+}
+.box img{
+	display: block;
+	height: 200px;
+	margin: 0 auto;
+}
+.box span{
+	display: block;
+	text-align: center;
+	margin-top: 25px;
+}
