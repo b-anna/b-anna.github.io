@@ -19,11 +19,11 @@
 	margin-top: 10px;
 	text-decoration: none;
 	color: #000;
-	font-size: 20pt;
+	font-size: 10pt;
 }
 .box img{
 	display: block;
-	height: 200px;
+	height: 300px;
 	margin: 0 auto;
 }
 .box span{
