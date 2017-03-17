@@ -8,8 +8,8 @@
 }
 .box{
 	display: inline-block;
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 	margin: 15px 10px;
 	box-shadow: 0 0 5px #000;
 	text-align: center;
