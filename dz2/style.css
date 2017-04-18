@@ -59,7 +59,7 @@ aside {
     margin: 50px;
 }
 
-nav1 ul {
+aside ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -69,14 +69,14 @@ nav1 ul {
     border-top: 50px;
 }
 
-nav1 li a {
+aside li a {
     text-decoration: none;
     display: block;
     color: gray;
     padding: 20px 0 8px 20px;
 }
 
-nav1 li {
+aside li {
     list-style: none;
     text-align: left;
     border: 1px solid #c8c8c8;
@@ -84,12 +84,12 @@ nav1 li {
     height: 40px;
 }
 
-nav1 li a.active {
+aside li a.active {
     background-color: #f9f9f9;
     color: gray;
 }
 
-nav1 li a:hover:not(.active) {
+aside li a:hover:not(.active) {
     background-color: #f9f9f9;
     color: black;
     padding: 20px 0 8px 40px;
