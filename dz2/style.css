@@ -44,14 +44,14 @@ nav li {
     margin: 0;
 }
 
-.top-menu li.active {
-    background: black;
-    color: #fff;
-    border: 1px solid #dbe0e3;
-}
-
 .top-menu a {
     color: #fff;
+}
+
+.top-menu li a:hover:not(.active) {
+    background-color: #464646;
+    padding: 10px 20px 9px 20px;
+    border: 1px solid #727679;
 }
 
 aside {
@@ -74,6 +74,7 @@ aside li a {
     display: block;
     color: gray;
     padding: 20px 0 8px 20px;
+    height: 12px;
 }
 
 aside li {
@@ -82,11 +83,6 @@ aside li {
     border: 1px solid #c8c8c8;
     width: 240px;
     height: 40px;
-}
-
-aside li a.active {
-    background-color: #f9f9f9;
-    color: gray;
 }
 
 aside li a:hover:not(.active) {
@@ -98,28 +94,42 @@ aside li a:hover:not(.active) {
 blockquote {
     display: block;
     float: right;
-    margin-right: 50px;
-    margin-top: 50px;
-    padding: 40px 90px 40px 40px;
+    /*width: 678px;*/
+    margin: 50px 50px 50px 0;
+    padding: 40px 90px 40px 80px;
     border: 1px solid #c8c8c8;
 }
 
 p {
     display: block;
-    margin-left: 35%;
+    margin-left: 360px;
     margin-right: 60px;
     margin-top: 60px;
-    padding: 1px 16px;
     font: 14px 'Letraset', sans-serif;
     line-height: 1.5;
     color: black;
 }
 
 footer {
-    height: 30px;
+    height: 40px;
     width: 980px;
-    margin-top: -150px;
+    margin-top: -100px;
     margin-left: 190px;
-    text-align: right;
     background: #e1e1e1;
+    color: black;
+}
+
+.foot-menu li {
+    display: inline-block;
+    padding: 10px 22px;
+}
+
+.foot-menu a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.foot-menu li a:hover:not(.active) {
+    text-decoration: underline;
 }
