@@ -1,0 +1,31 @@
+
+.radio{
+    display: none;
+}
+.label_item{
+    position: relative;
+    display: block;
+    margin-left: 30px;
+}
+.label_item::before{
+    content: '';
+    left: -20px;
+    top: 2px;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #000000;
+    display: inline-block;
+}
+.radio:checked + .label_item::before{
+    content: '';
+    background-color: #000000;
+}
+.submit_btn{
+    margin: 0 auto;
+    background-color: #87CEEB;
+    border-color: black;
+    color: black;
+    width: 20%;
+    height: 30px;
+}
