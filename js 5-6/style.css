@@ -1,0 +1,42 @@
+
+body {
+  color: #DAD6D6;
+  background: #171A21;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 200px 0 0 ;
+
+}
+.cobtrol{
+  font-size: 32px;
+}
+
+input[type=button]{
+    width: 100px;
+    height: 50px;
+
+}
+.btn-primary{
+  color: #DAD6D6;
+  background-color:#721329;
+  border: solid 2px #590F20;
+  font-size: 25px;
+
+}
+.btn-primary:hover {
+  color: #DAD6D6;
+  background-color:#721329;
+}
+.btn-primary:focus {
+  color: #DAD6D6;
+  background-color:#721329;
+
+}
+.btn-primary:active {
+  color: #DAD6D6;
+  background-color:#721329;
+
+}
+#disdlay{
+  font-size: 46px;
+}
