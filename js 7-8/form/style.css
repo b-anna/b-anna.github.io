@@ -1,0 +1,17 @@
+.toolTip{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.toolTip label{
+    min-width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.tooltip__item{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 15px;
+    position: relative;
+}
