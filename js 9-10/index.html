@@ -1,0 +1,107 @@
+<!doctype html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>HW 9-10</title>
+	    <link rel="stylesheet" href="css/bootstrap.css"/>
+	    <link rel="stylesheet" href="css/style.css"/>
+	    <link rel="stylesheet" href="css/nice-select.css"/>
+	    <link rel="stylesheet" href="css/jcarousel.basic.css"/
+	</head>
+	<body class="body">
+	<nav class="body__menu">
+	    <ul class="menu__container">
+	        <li class="menu__item"><a href="#">Tour</a></li>
+	        <li class="menu__item"><a href="#">Stories</a>
+	            <span class="menu__item-sub"></span>
+	            <ul class="menu__submenu menu__submenu-hidden">
+	                <li class="submenu__item"><a href="#">stories 1</a></li>
+	                <li class="submenu__item"><a href="#">stories 2</a></li>
+	                <li class="submenu__item menu__item-submenu"><a href="#">stories 3</a>
+	                    <span class="menu__item-sub-right"></span>
+	                    <ul class="menu__submenu menu__submenu2 menu__submenu-hidden">
+	                        <li class="submenu__item"><a href="#">stories 3.1</a></li>
+	                        <li class="submenu__item"><a href="#">stories 3.2</a></li>
+	                        <li class="submenu__item"><a href="#">stories 3.3</a></li>
+	                        <li class="submenu__item"><a href="#">stories 3.4</a></li>
+	                        <li class="submenu__item"><a href="#">stories 3.5</a></li>
+	                        <li class="submenu__item"><a href="#">stories 3.6</a></li>
+	                        </ul>
+	                </li>
+	                <li class="submenu__item"><a href="#">stories 4</a></li>
+	                <li class="submenu__item"><a href="#">stories 5</a></li>
+	                <li class="submenu__item"><a href="#">stories 6</a></li>
+	            </ul></li>
+	        <li class="menu__item"><a href="#">Connect</a></li>
+	        <li class="menu__item menu__item-submenu menu__item-submenu"><a href="#">Resources</a>
+	            <span class="menu__item-sub"></span>
+	            <ul class="menu__submenu menu__submenu-hidden">
+	                <li class="submenu__item"><a href="#">resources 1</a></li>
+	                <li class="submenu__item"><a href="#">resources 2</a></li>
+	                <li class="submenu__item"><a href="#">resources 3</a></li>
+	                <li class="submenu__item"><a href="#">resources 4</a></li>
+	                <li class="submenu__item"><a href="#">resources 5</a></li>
+	            </ul></li>
+	        <li class="menu__item"><a href="#">Blog</a>
+	            <span class="menu__item-sub"></span>
+	            <ul class="menu__submenu menu__submenu-hidden">
+	                <li class="submenu__item"><a href="#">blog 1</a></li>
+	                <li class="submenu__item"><a href="#">blog 2</a></li>
+	                <li class="submenu__item"><a href="#">blog 3</a></li>
+	            </ul></li>
+	        <li class="menu__item"><a href="#">About</a></li>
+	    </ul>
+	</nav>
+	<div class="body__checkbox">
+	    <label class="check__css" for="ch__css"><input name="ch__css" id="ch__css" type="checkbox"/><span class="check__castom-css" ></span>a</label>
+	    <label class="check__css" for="ch__css4"><input name="ch__css" id="ch__css4" type="checkbox" disabled checked/><span class="check__castom-css" ></span>b</label>
+	    <label class="check__css" for="ch__css5"><input name="ch__css" id="ch__css5" type="checkbox" checked/><span class="check__castom-css" ></span>c</label>
+	    <label class="check__js-label" for="ch__js"><input class="check__js" name="ch__js" id="ch__js" type="checkbox"/>d</label>
+	    <label class="check__js-label" for="ch__js1"><input class="check__js" name="ch__js" id="ch__js1" type="checkbox" checked/>e</label>
+	    <label class="check__js-label" for="ch__js2"><input class="check__js" name="ch__js" id="ch__js2" type="checkbox" checked disabled/>f</label>
+	    <label class="check__js-label" for="ch__js3"><input class="check__js" name="ch__js" id="ch__js3" type="checkbox"/>g</label>
+	</div>
+	<div class="jcarousel-wrapper">
+	    <div class="jcarousel" style="width: 960px; height: 400px;">
+	        <ul>
+	            <li>
+	                <div class="slide_wrap"><img src="./img/slide_1.jpg" alt="Sea 1"/></div>
+	            </li>
+	            <li>
+	                <div class="slide_wrap"><img src="./img/slide_2.jpg" alt="sea 2"/></div>
+	            </li>
+	            <li>
+	                <div class="slide_wrap"><img src="./img/slide_3.jpg" alt="sea3"/></div>
+	            </li>
+	            <li>
+	                <div class="slide_wrap"><img src="./img/slide_4.jpg" alt="sea 4"/></div>
+	            </li>
+	            <li>
+	                <div class="slide_wrap"><img src="./img/slide_5.jpg" alt="sea 5"/></div>
+	            </li>
+	            <li>
+	                <div class="slide_wrap"><img src="./img/slide_6.jpg" alt="sea 6"/></div>
+	            </li>
+	    </ul>
+	    </div>
+	    <a class="jcarousel-control-next" href="#">></a>
+	    <a class="jcarousel-control-prev" href="#"><</a>
+	    <p class="jcarousel-pagination">
+
+	    </p>
+	</div>
+	<div class="custom_select" style="width: 500px">
+	    <select class="wide" >
+	        <option data-display="Select">Video</option>
+	        <option value="1">Webinars</option>
+	        <option value="2">Presentations</option>
+	        <option value="3" disabled>Best Practices</option>
+	        <option value="4">Stories</option>
+	    </select>
+	</div>
+	</body>
+	    <script src="js/jquery-3.2.1.js"></script>
+	    <script src="js/jscarusel.js"></script>
+	    <script src="js/jquery.nice-select.js"></script>
+	    <script src="js/script.js"></script>
+	</html>
