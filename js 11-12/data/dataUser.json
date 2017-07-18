@@ -1,7 +1,7 @@
 {
 "users" : [
                 {
-                    "img": "./img/photo1.jpg",
+                    "img": "./img/users/user1.jpg",
                     "firstName" : "Анна",
                     "lastName" : "Бойко",
                     "phone" : "+380954005242",
@@ -9,17 +9,18 @@
                     "facebook" : "vk.com",
                     "specializing" : "Инструктор по fly-йоге",
                     "skils" : "хатха,аштанга,fly",
+                   "nodes" :"Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India"
                 },
                 {
-                  "img": "./img/photo2.jpg",
+                   "img": "./img/users/user2.jpg",
                   "firstName" : "Майя",
                   "lastName" : "Браташ",
                   "phone" : "+380954007515",
-                    "email" : " majya@gmail.com",
-                    "facebook" : "faceboock.com",
-                    "specializing" : "Инструктор по хатха-йоге",
-                    "skils" : "акро,айенгара,хатха",
-
+                   "email" : " majya@gmail.com",
+                   "facebook" : "facebook.com",
+                   "specializing" : "Инструктор по хатха-йоге",
+                   "skils" : "акро,айенгара,хатха",
+                   "nodes" :"Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India"
                 }
            ]
 }
