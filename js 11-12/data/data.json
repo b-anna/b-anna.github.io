@@ -1,0 +1,83 @@
+{
+    "users": [{
+            "img": "./img/slider_3.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        },
+        {
+            "img": "./img/slider_4.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        },
+        {
+            "img": "./img/slider_8.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        },
+        {
+            "img": "./img/slider_3.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        },
+        {
+            "img": "./img/slider_4.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        },
+        {
+            "img": "./img/slider_8.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        },
+        {
+            "img": "./img/slider_3.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        },
+        {
+            "img": "./img/slider_4.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        },
+        {
+            "img": "./img/slider_8.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        },
+        {
+            "img": "./img/slider_3.png",
+            "firstName": "Charly",
+            "lastName": "Mitchel"
+        },
+        {
+            "img": "./img/slider_4.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        },
+        {
+            "img": "./img/slider_8.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        },
+        {
+            "img": "./img/slider_3.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        },
+        {
+            "img": "./img/slider_4.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        },
+        {
+            "img": "./img/slider_8.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        },
+        {
+            "img": "./img/slider_3.png",
+            "firstName": "Hanna",
+            "lastName ": "Mantana"
+        }
+    ]
+}
