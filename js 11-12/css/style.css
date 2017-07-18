@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eff0d1;
+  background-image: url("../img/bc.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  width: 960px;
+  margin: auto;
+}
+
+.page-link {
+  display: block;
+  width: 100%;
+  height: 100px;
+  border: 1ps solid #000000;
+  border-radius: 20px;
+  background-color: rgba(16, 43, 49, 0.39);
+  margin: 20px 0;
+  transition: background-color 400ms;
+}
+
+.page-link:hover {
+  background-color: rgba(224, 74, 185, 0.57);
+}
+
+.page-link a {
+  text-align: center;
+  text-decoration: none;
+  line-height: 100px;
+  font-size: 50px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel__next, .carousel__prev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 30px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.carousel__next:hover, .carousel__prev:hover {
+  background-color: rgba(58, 58, 58, 0.5);
+}
+
+.carousel__next:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-left: 24px solid #3a3a3a;
+  border-bottom: 12px solid transparent;
+}
+
+.carousel__prev:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-right: 24px solid #3a3a3a;
+  border-bottom: 12px solid transparent;
+}
+
+.carousel__items-container {
+  width: 600px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel__items {
+  width: 10000px;
+  position: absolute;
+}
+
+.carousel__item {
+  float: left;
+  box-sizing: border-box;
+  width: 200px;
+}
+
+.carousel__item img {
+  width: auto;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.carousel__item:hover {
+  border-left: 1px solid #969696;
+  border-right: 1px solid #969696;
+}
+
+.entry {
+  width: 100%;
+}
+
+.hb_c {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.hb_c__item {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px 10px;
+  background-color: rgba(26, 162, 96, 0.8);
+}
+
+.hb_c__item:hover {
+  box-shadow: 0 0 10px #000;
+}
+
+.hb_c__item img {
+  width: 180px;
+  height: auto;
+}
+
+body {
+  position: relative;
+}
+
+input[type='button'] {
+  position: fixed;
+  right: 50px;
+  width: 80px;
+  height: 40px;
+}
+
+#content {
+  width: 80vw;
+}
+
+.personal-card {
+  font-family: san-serif;
+}
+
+.personal-card__info {
+  margin: 25px auto;
+  padding-top: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 700px;
+  background-color: #B5B5B5;
+  border-radius: 20px;
+}
+
+.personal-card__info .info__skill {
+  width: 80%;
+  height: 200px;
+}
+
+.personal-card__info .info__skill p {
+  display: inline-block;
+  height: 100%;
+  width: 80%;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.personal-card__info .info__skill span {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.personal-card__info .info__contact img {
+  display: inline-block;
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.personal-card__info .info__contact .info__name-text {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 15px 0;
+  margin-left: 400px;
+}
+
+.personal-card__info .info__contact .info__name-text .info__text {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-left: 10px;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.personal-card__info .info__social {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.personal-card__info .info__social a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: blue;
+  margin-left: 25px;
+}
+
+.personal-card__notes {
+  margin: 25px auto;
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  background-color: #B5B5B5;
+  border-radius: 20px;
+}
+
+.personal-card__notes h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}

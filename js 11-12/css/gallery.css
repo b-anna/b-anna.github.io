@@ -1,0 +1,30 @@
+.entry {
+  width: 100%;
+}
+
+.hb_c {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.hb_c__item {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px 10px;
+  background-color: rgba(26, 162, 96, 0.8);
+}
+
+.hb_c__item:hover {
+  box-shadow: 0 0 10px #000;
+}
+
+.hb_c__item img {
+  width: 180px;
+  height: auto;
+}

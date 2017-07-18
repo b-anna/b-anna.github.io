@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title></title>
+</head>
+<body>
+<div id="hb">
+
+</div>
+<script id="entry-template" type="text/x-handlebars-template">
+    <div class="entry">
+        <div class="body">
+            {{body}}
+            <h1>{{title}}</h1>
+            <div class="hb_c">
+                {{#each users}}
+                <div class="hb_c__item">
+                    <img src="{{img}}" alt="av"/>
+                    <p><h3>First Name:</h3> {{firstName}}</p>
+                    <p><h4>Last Name:</h4> {{lastName}}</p>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</script>
+
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/jquery.color.js"></script>
+<script src="js/handlebars-v4.0.10.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>

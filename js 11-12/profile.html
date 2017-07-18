@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title></title>
+</head>
+<body>
+
+
+<input id="nextItem" type="button" value="NEXT>"/>
+
+<div id="content">
+
+</div>
+<script id="entry-template" type="text/x-handlebars-template">
+    <div class="personal-card">
+        <div class="personal-card__info">
+            <div class="info__contact">
+                    <img src="{{users.img}}" alt="av"/>
+
+                <p class="info__name-text">Position: <span class="info__text">{{users.specializing}}</span></p>
+                <p class="info__name-text">First Name: <span class="info__text">{{users.firstName}}</span></p>
+                <p class="info__name-text">Last Name: <span class="info__text">{{users.lastName}}</span></p>
+                <p class="info__name-text">Phone: <span class="info__text">{{users.phone}}</span></p>
+                <p class="info__name-text">E-mail: <span class="info__text">{{users.email}}</span></p>
+            </div>
+            <div class="info__skill">
+                <span>Skill</span>
+                <p>{{users.skils}}</p>
+            </div>
+            <div class="info__social">
+                <h3>Social</h3>
+                <a href="{{users.facebook}}"></a>
+            </div>
+        </div>
+    </div>
+</script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/jquery.color.js"></script>
+<script src="js/handlebars-v4.0.10.js"></script>
+<script src="js/profile.js"></script>
+</body>
+</html>
