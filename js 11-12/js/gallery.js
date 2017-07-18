@@ -1,6 +1,4 @@
-/**
- * Created by User on 21.06.2017.
- */
+
 "use strict";
 var jsonV = new XMLHttpRequest();
 jsonV.open('GET', './data/data.json');
