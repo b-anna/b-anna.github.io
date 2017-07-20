@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW 13-14</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/bootstrap-grid.css"/>  
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="wrapper">
+<div class="body">
+
+</div>
+<div id="popup" class="dialog-hidden">
+    <p id="dialog">
+
+    </p>
+    <p>Закрыть </p>
+</div>
+</div>
+
+<script type="text/template" id="loTemplate">
+    <h1><%=test.title%></h1>
+    <%var i, n; i = 0;%>
+    <% test.questions.forEach(function(item) { %>
+        <%n = 0;%>
+        <h2><%=item.title%></h2>
+            <%item.answers.forEach(function(itemAns) {%>
+                <%if(item.correctAnswers.length>1){%>
+                    <div><input class="radio" type="checkbox" name="Q<%=i%>" id="Q<%=i%>|<%=n%>"/><label class="label_item" for="Q<%=i%>|<%=n%>"><%=itemAns%></label></div>
+                <%}else{%>
+                    <div><input class="radio" type="radio" name="Q<%=i%>" id="Q<%=i%>|<%=n%>"/><label class="label_item" for="Q<%=i%>|<%=n%>"><%=itemAns%></label></div>
+                <%}%>
+
+                <%n++;%>
+            <% }); %>
+            <%i++;%>
+    <% }); %>
+    <input type="button" id="checkButton" value="Проверить мои результаты"/>
+</script>
+
+<script src="js/lodash.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
