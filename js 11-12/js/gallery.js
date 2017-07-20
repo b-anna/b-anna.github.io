@@ -1,4 +1,3 @@
-
 "use strict";
 var jsonV = new XMLHttpRequest();
 jsonV.open('GET', './data/data.json');
@@ -7,7 +6,7 @@ jsonV.onloadend = function(){
     var names = JSON.parse(jsonV.responseText);
     var source   = $("#entry-template").html();
     var template = Handlebars.compile(source);
-     var context = {title: "handelbars",
+    var context = {title: "handelbars",
         body: "This Gallery generate"
     };
     context['users'] = names.users;
