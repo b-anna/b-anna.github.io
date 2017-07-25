@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <title>HW 15-16 (1)</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body translate="no" >
+
+<div class="wrapper">
+    <form action="GET" class="container">
+        <div class="row">
+            <input type="text" id="recText" class="offset-2 col-5"/>
+            <input type="button" value="Search" id="btnSearch" class="btn btn-primary col-1" />
+        </div>
+    </form>
+
+<div class="hidden-block" id="blockRes">
+<div class="search-result" id="topSearch">
+
+</div>
+<div class="container col-12">
+    <div class="row">
+        <a id="prevPage" class="offset-1 col-1 btn btn-info" href=""><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+        <a id="nextPage" class="offset-7 col-1 btn btn-info" href=""><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+    </div>
+
+</div>
+</div>
+<script id="entry-template" type="text/x-handlebars-template">
+    {{#each hits}}
+    <div class="search-result__item">
+        <div class="img-hider">
+            <a href="{{pageURL}}" target="_blanck"><img src="{{previewURL}}"></img></a>
+        </div>
+        <p>{{user}}</p>
+    </div>
+    {{/each}}
+</script>
+</div>
+
+<script src='js/handlebars-v4.0.10.js'></script>
+<script src='js/script.js'></script>
+
+
+
+
+
+
+</body>
+</html>

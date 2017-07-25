@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HomeWork 15-16(2)</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <h2>Создание вопроса теста</h2>
+
+    <section class="forms__query">
+        <form class="form" method="post">
+            <label for="quetion">Введите вопрос: <input type="text" id="question" placeholder="Вид анатомического изгиба позвоночника назад" value="Вид анатомического изгиба позвоночника назад"></label>
+            <label for="answers">Заполните варианты ответов: <input type="text" id="answers" placeholder="Лордоз,Кифоз,Сколиоз,Деформация позвоночника" value="Лордоз,Кифоз,Сколиоз,Деформация позвоночника"></label>
+            <label for="answersNum">Введите номер правильного ответа: <input type="text" id="answersNum" placeholder="2" value="2"></label>
+            <button type="button" id="btnCreate" name="button">Добавить</button>
+        </form>
+    </section>
+
+    <div id="container"></div>
+
+    <div class="readyTest">
+        <script type="text/template" id="template">
+            <article class="articale">
+                <h3 class="articale__title"><%- question %></h3>
+                <div class="block">
+                    <form class="articale__form">
+                        <ul class="answers__list">
+                            <% _.map(answers, function(item) { %>
+                                <li class="answers__item">
+                                    <label>
+                    <input type="radio" name="radio-btn">
+                    <span>
+                      <%- item %>
+                    </span>
+                  </label>
+                                </li>
+                                <% }); %>
+                        </ul>
+                    </form>
+                </div>
+            </article>
+        </script>
+    </div>
+    <script src="js/lodash.js"></script>
+    <script type="text/javascript" src="js\script.js"></script>
+</body>
+
+</html>

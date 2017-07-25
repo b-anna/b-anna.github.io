@@ -1,0 +1,36 @@
+.form, h2 {
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+section label {
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section input {
+    width: 350px;
+    height: 25px;
+}
+
+button {
+    background: #c2cee4;
+    margin-right: 25px;
+    margin-top: 25px;
+    height: 35px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.articale__title {
+    padding: 30px 40px 5px;
+}
+
+.answers__list {
+    list-style: none;
+}
+
+li {
+    margin: 15px 0 15px;
+}
