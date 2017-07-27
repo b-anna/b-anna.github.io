@@ -1,0 +1,98 @@
+
+@media (min-width: 768px) {
+  .header {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: flex-start;
+  }
+  .text-480use {
+    display: inline;
+  }
+  .block-480use {
+    display: block;
+  }
+  .blurbs__content {
+    flex-direction: row;
+  }
+  .blurbs__cover {
+    width: 33%;
+  }
+  .blurbs__section {
+    width: 33%;
+  }
+  .main-content__cover {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  .text-480use {
+    display: inline;
+  }
+  .navMenu {
+    width: 80%;
+  }
+  .Menu {
+    width: 80%;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+  }
+  .Menu__item {
+    display: list-item;
+  }
+  .slider {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .slider__text {
+    width: 30%;
+    font-size: 1rem;
+    font-family: LeagueGothicR;
+    font-weight: 100;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+  }
+  .slider__text-p {
+    display: block;
+    line-height: 1.5rem;
+    height: 6rem;
+    overflow: hidden;
+  }
+  .testimonials__cover {
+    margin-top: 15px;
+    min-height: 315px;
+  }
+  .testimonials__text {
+    min-height: 13rem;
+  }
+  .logos__wrap {
+    width: 100%;
+  }
+  .logos__item {
+    width: 5vw;
+  }
+  .footer .fooBox__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer__copyR {
+    display: flex;
+    align-self: flex-end;
+    margin: 20px 20px 0 0;
+  }
+  .fooBox {
+    width: 200px;
+  }
+  .fooBox__text {
+    line-height: 1.2rem;
+    height: 8.4rem;
+  }
+  .foo__menu {
+    width: 70%;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,57 @@
+
+@media (max-width: 767px) {
+  .navMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 90px;
+    position: relative;
+    height: 122px;
+  }
+  .Menu:hover {
+    overflow: hidden;
+    width: 245px;
+    right: -122.5px;
+    top: -1px;
+    border-radius: 20px;
+    background-color: rgba(73, 55, 77, 0.7);
+    border: 1px solid #111a21;
+    box-shadow: inset 0 1px 2px #785a86;
+  }
+  .Menu:hover .Menu__item {
+    display: list-item;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #523F5A;
+    border-bottom: 1px solid #36283E;
+  }
+  .Menu:hover .Menu__item:first-child {
+    content: "";
+    border-top: none;
+  }
+  .Menu:hover .Menu__item:last-child {
+    content: "";
+    border-bottom: none;
+  }
+  .Menu__item {
+    display: none;
+  }
+  .Menu__link {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    border-bottom: 3px solid transparent;
+    padding: 10px 0;
+  }
+  .Menu__link:hover {
+    border-bottom: 3px solid #edbfff;
+  }
+  .Menu__ferst-link {
+    border-bottom: 3px solid #edbfff;
+    padding: 10px 0;
+  }
+  .Menu__item--select {
+    display: list-item;
+  }
+}
