@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="coffee" unicode="&#xe800;" d="M678-15l-625 0q-22 0-37 16t-16 37 16 36 37 16l625 0q21 0 36-16t15-36-15-37-36-16z m25 730q75 0 128-54t54-128-54-129-128-54l-25 0 0-104q0-43-32-74t-73-31l-417 0q-42 0-73 31t-30 74l0 469 650 0z m-130-469l0 364-417 0 0-364 417 0z m130 208q32 0 55 23t23 56q0 31-23 54t-55 23l-78 0 0-156 78 0z" horiz-adv-x="885" />
+
+<glyph glyph-name="paper-plane" unicode="&#xe801;" d="M0 191q-2 18 14 28l937 625q8 6 18 6t18-6q15-10 13-31l-156-938q-4-13-16-21-7-4-15-4-6 0-12 2l-303 121-64-107q-10-16-28-16t-27 16l-115 201-244 97q-18 8-20 27z m98 11l189-77q2-2 5-3l3-2 527 564z m221-104l87-152 504 787z m183-62q12-2 20-4l265-108 125 748z" horiz-adv-x="1000" />
+
+<glyph glyph-name="monitor" unicode="&#xe802;" d="M0 104l0 660 1000 0 0-660-363 0 0-96 88 0 0-72-450 0 0 72 88 0 0 96-363 0z m123 125l754 0 0 410-754 0 0-410z" horiz-adv-x="1000" />
+
+<glyph glyph-name="beaker" unicode="&#xe803;" d="M782 126q19-68-21-117t-106-50l-521 0q-67 0-107 50t-21 117l129 475q2 10 6 35l-60 0q-21 0-36 15t-15 37 15 37 36 16l625 0q21 0 37-16t16-37-16-37-37-15l-61 0z m-246 510l-291 0q-1-35-10-62l-54-200 3 2 418 0q2 0 3-1t2-1z m119-573q35 0 26 35l-62 231q-9-6-17-6l-416 0q-9 0-17 6l-62-231q-8-35 27-35l521 0z" horiz-adv-x="788" />
+
+<glyph glyph-name="right-open-big" unicode="&#xe804;" d="M13-20l358 370-358 372q-26 26 0 48 26 26 48 0l392-394q24-26 0-50l-392-394q-22-26-48 0-26 22 0 48z" horiz-adv-x="465" />
+
+<glyph glyph-name="left-open-big" unicode="&#xe805;" d="M452-20q26-26 0-48-26-26-48 0l-392 394q-24 24 0 50l392 394q22 26 48 0 26-22 0-48l-358-372z" horiz-adv-x="465" />
+
+<glyph glyph-name="left-open-mini" unicode="&#xe806;" d="M252 180q26-26 0-48-26-26-48 0l-192 194q-24 24 0 50l192 194q22 26 48 0 26-22 0-48l-156-172z" horiz-adv-x="265" />
+
+<glyph glyph-name="right-open-mini" unicode="&#xe807;" d="M13 180l158 170-158 172q-26 26 0 48 26 26 48 0l192-194q24-26 0-50l-192-194q-22-26-48 0-26 22 0 48z" horiz-adv-x="265" />
+</font>
+</defs>
+</svg>
